@@ -1,0 +1,36 @@
+[versions]
+plugin-android = "7.4.2"
+plugin-kotlin = "1.8.22"
+
+androidx-compose = "1.4.3" # https://developer.android.com/jetpack/androidx/releases/compose-ui
+androidx-compose-compiler = "1.4.8" # https://developer.android.com/jetpack/androidx/releases/compose-kotlin
+google-accompanist = "0.30.1" # https://github.com/google/accompanist
+kotlinx-coroutines = "1.7.3" # https://github.com/Kotlin/kotlinx.coroutines
+
+retrofit = "2.9.0"
+
+[libraries]
+plugin-android = { module = "com.android.tools.build:gradle", version.ref = "plugin-android" }
+plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "plugin-kotlin" }
+
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.3.1" }
+
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidx-compose" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose" }
+androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose" }
+androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose" }
+androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "androidx-compose" }
+androidx-compose-activity = { module = "androidx.activity:activity-compose", version = "1.5.1" }
+
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "google-accompanist" }
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+
+gson = { module = "com.google.code.gson:gson", version = "2.8.6" }
+
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+
+[bundles]
+plugins = ["plugin-android", "plugin-kotlin"]
