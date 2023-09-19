@@ -3,7 +3,7 @@ This app consists of a single screen displaying fake orders.
 Orders are received from server.
 Query example (you can copy-paste this into your browser):
 
-    https://externalwebhooks.dostavista.net/mobile-interview-api.php?since_id=42010&limit=10
+    https://externalwebhooks.dostavista.net/mobile-interview-api.php?since_id=2010&limit=10
 
 Server returns random data, but the following will always be true:
 
@@ -17,3 +17,5 @@ Change displayed order date format to *September, 15 2023*
 Add paging. 
 When you scroll down to the end of the list, app should automatically start loading next page.
 While next page is loading, loading indicator must be displayed as the last item of the list.
+
+When the app starts or when you reload the page, you should make a request with since_id = null
