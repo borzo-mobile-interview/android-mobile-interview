@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Interview</string>
+    <string name="orders_screen_title">Orders</string>
+    <string name="orders_loading_error">Something went wrong; check logcat</string>
+</resources>
