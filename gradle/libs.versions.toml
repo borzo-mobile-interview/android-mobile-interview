@@ -2,9 +2,6 @@
 plugin-android = "7.4.2"
 plugin-kotlin = "1.8.22"
 
-androidx-compose = "1.4.3" # https://developer.android.com/jetpack/androidx/releases/compose-ui
-androidx-compose-compiler = "1.4.8" # https://developer.android.com/jetpack/androidx/releases/compose-kotlin
-google-accompanist = "0.30.1" # https://github.com/google/accompanist
 kotlinx-coroutines = "1.7.3" # https://github.com/Kotlin/kotlinx.coroutines
 
 retrofit = "2.9.0"
@@ -14,15 +11,12 @@ plugin-android = { module = "com.android.tools.build:gradle", version.ref = "plu
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "plugin-kotlin" }
 
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.3.1" }
+androidx-activity = { module = "androidx.activity:activity-ktx", version = "1.7.0" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version = "2.6.2" }
 
-androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidx-compose" }
-androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose" }
-androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose" }
-androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose" }
-androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "androidx-compose" }
-androidx-compose-activity = { module = "androidx.activity:activity-compose", version = "1.5.1" }
-
-accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "google-accompanist" }
+google-android-material = { module = "com.google.android.material:material", version = "1.4.0" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.2.1" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version = "1.1.0" }
 
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
