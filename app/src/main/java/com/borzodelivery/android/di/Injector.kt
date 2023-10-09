@@ -4,7 +4,6 @@ import com.borzodelivery.android.data.api.ApiBuilderImpl
 import com.borzodelivery.android.data.api.ApiBuilder
 import com.borzodelivery.android.data.order.OrdersRepository
 import com.borzodelivery.android.data.order.OrdersRepositoryImpl
-import com.borzodelivery.android.data.order.remote.FakeOrderApi
 import com.borzodelivery.android.data.order.remote.OrderApi
 import com.borzodelivery.android.ui.orders_list.OrdersViewModel
 
