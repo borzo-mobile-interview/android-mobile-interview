@@ -3,7 +3,7 @@ This app consists of a single screen displaying fake orders.
 Orders are received from server.
 Query example (you can copy-paste this into your browser):
 
-    https://externalwebhooks.dostavista.net/mobile-interview-api.php?since_id=2010&limit=10
+    https://externalwebhooks.borzo.net/mobile-interview-api.php?since_id=2010&limit=10
 
 ## Task 1
 Change displayed order date format to `September, 15 2023 18:50`

@@ -15,7 +15,7 @@ import javax.net.ssl.X509TrustManager
 class ApiBuilderImpl : ApiBuilder {
 
     override fun <T> createApi(api: Class<T>): T {
-        val baseUrl = "https://externalwebhooks.dostavista.net/"
+        val baseUrl = "https://externalwebhooks.borzo.net/"
 
         return Retrofit.Builder()
             .baseUrl(baseUrl)
